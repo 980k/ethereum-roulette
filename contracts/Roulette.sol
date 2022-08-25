@@ -67,7 +67,7 @@ contract Roulette {
         }
     }
 
-    function getRandomNumber() public view returns (uint) {
+    function getRandomNumber() internal view returns (uint) {
         return RandomNumber(randomNumberGenerator).getRandomNumber();
     }
 
