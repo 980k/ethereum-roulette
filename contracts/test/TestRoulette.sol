@@ -2,8 +2,8 @@
 // Test roulette contract used for unit testing.
 pragma solidity ^0.8.16;
 
-import "./Roulette.sol";
-import "./RandomNumber.sol";
+import "../Roulette.sol";
+import "../RandomNumber.sol";
 
 contract TestRoulette is Roulette {
 

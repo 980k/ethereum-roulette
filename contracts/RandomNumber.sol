@@ -2,8 +2,8 @@
 // An example of a consumer contract that relies on a subscription for funding.
 pragma solidity ^0.8.16;
 
-import "./VRFCoordinatorV2Interface.sol";
-import "./VRFConsumerBaseV2.sol";
+import "./interface/VRFCoordinatorV2Interface.sol";
+import "./interface/VRFConsumerBaseV2.sol";
 
 /**
  * THIS IS AN EXAMPLE CONTRACT THAT USES HARDCODED VALUES FOR CLARITY.
